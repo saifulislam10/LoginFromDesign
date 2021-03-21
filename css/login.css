@@ -1,0 +1,78 @@
+*{padding:0; margin:0;}
+body{background:#999;}
+.Main_aria {
+    width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #dddddd91;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px;
+}
+.sub-main1 {
+    width: 450px;
+    margin: 0 auto 20px;
+    background: #bbff0057;
+    border: 2px solid #999;
+    border-radius: 20px;
+    padding: 18px;
+    box-shadow: inset 0px 0px 11px 0px;
+}
+
+.sub-main2 {
+    width: 450px;
+    margin: 0 auto 20px;
+    background: #bbff0057;
+    border: 2px solid #999;
+    border-radius: 20px;
+    padding: 18px;
+    box-shadow: inset 0px 0px 11px 0px;
+}
+.inp {
+    padding: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    width: 80%;
+    border: none;
+    background: #575b4b7d;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 20px;
+	box-shadow: inset 0px 0px 15px 7px;
+	transition: 1s;
+}
+.inp:focus{
+	background:#888;
+	outline:none;
+}
+a{
+	font-size:20px;
+	transition:1s;
+}
+a:hover{
+	color:red;
+}
+
+
+
+
+
+
+.submit {
+    width: 40%;
+    border: none;
+    padding: 14px;
+    font-size: 20px;
+    border-radius: 15px;
+    color: #fff;
+    background: #999;
+    text-transform: uppercase;
+	box-shadow: inset 5px 5px 5px 3px #000000b3;
+	transition:1s;
+}
+.submit:hover{
+	color: #999;
+    background: #333;
+	cursor:pointer;
+}
